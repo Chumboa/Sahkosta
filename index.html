@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>LineChart</title>
+</head>
+<fieldset>
+    <legend>Select measure:</legend>
+    <div>
+      <input type="radio" id="windpower" name="datasource" value="75"/>
+      <label for="windpower">Windpower generation</label>
+    </div>
+  
+    <div>
+      <input type="radio" id="import" name="datasource" value="65" />
+      <label for="import">Russian - Finland electricity import</label>
+    </div>
+  
+    <div>
+      <input type="radio" id="consumption" name="datasource" value="124"/>
+      <label for="consumption">Electricity consumption in Finland</label>
+    </div>
+  </fieldset>
+<body>
+    <div id="wrapper">
+        <text>Start: </text>
+        <input type="date" id="start_date">
+        <text>End: </text>
+        <input type="date" id="end_date">
+        <div>
+        <button id="button">Get data</button>
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

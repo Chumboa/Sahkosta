@@ -1,0 +1,44 @@
+fieldset {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+    background-color: antiquewhite;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #333;
+    font-size: 25px;
+  }
+  
+  div {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  label {
+    font-size: 20px;
+    color: #555;
+  }
+
+
+button {
+    margin-top: 13px;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+
+#start_date,
+#end_date {
+  width: 200px; 
+  height: 30px;
+  background-color: antiquewhite;
+  transition: all 1s ease-in-out;
+}
